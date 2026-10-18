@@ -312,3 +312,17 @@ input,select{
   font-style:italic;
   font-size:19px;
 }
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #151022;          /* שמי לילה עמוקים לרקע */
+    --card: #201833;        /* רקע כרטיסים כהה */
+    --line: #3b2c55;        /* קווי גבול ודש עדינים */
+    --ink: #f5edf2;         /* טקסט ראשי בהיר וקריא */
+    --muted: #b99fb0;       /* טקסט משני */
+    --ribbon: #f07d9f;      /* ורוד בהיר ומודגש */
+    --ribbon-soft: #382442; /* רקע טאבים נבחרים */
+    --night: #0e0917;       /* הדר מוחשך עמוק */
+    --star: #fae8b2;        /* זהב כוכבים */
+  }
+}
